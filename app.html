@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" class="w3-theme-d5">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="styles/site.css">
+  <link rel="stylesheet" href="styles/app.css">
+  <script type="module" src="src/loader.js"></script>
+  <script type="module" src="src/app.js"></script>
+</head>
+<body>
+    <project-header>The Game of Entropy (Working Title)</project-header>
+    <app-navbar data-page="app"></app-navbar>
+    <div id="container">
+      <canvas width="1000" height="600">
+        Failed to load Canvas
+      </canvas>
+      <div id="controls" class="w3-theme-d1 px-5">
+        <div class="columns">
+          <div class="column is-2">
+            <div class="button" id="btnUnlWood">Unlock ($100)</div>
+            <div class="button" id="btnBuyWood">Purchase ($5)</div>
+          </div>
+          <div class="column is-2">
+            <div class="button" id="btnUnlCoal">Unlock ($200)</div>
+            <div class="button" id="btnBuyCoal">Purchase ($25)</div>
+          </div>
+          <div class="column is-2">
+            <div class="button" id="btnUnlWind">Unlock ($400)</div>
+            <div class="button" id="btnBuyWind">Purchase ($150)</div>
+          </div>
+          <div class="column is-2">
+            <div class="button" id="btnUnlSolar">Unlock ($500)</div>
+            <div class="button" id="btnBuySolar">Purchase ($170)</div>
+          </div>
+          <div class="column is-2">
+            <div class="button" id="btnUnlNuclear">Unlock ($10,000)</div>
+            <div class="button" id="btnBuyNuclear">Purchase ($5,000)</div>
+          </div>
+          <div class="column is-2">
+            <div class="button" id="btnUnlDyson">Unlock ($750,000)</div>
+            <div class="button" id="btnBuyDyson">Purchase ($350,000)</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <project-footer>Michael Chan</project-footer>
+</body>
+</html>

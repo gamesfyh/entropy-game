@@ -1,0 +1,56 @@
+#container {
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+#controls {
+    width: 1000px;
+}
+
+#controls > .columns > .column {
+    display: flex;
+    flex-direction: column;
+}
+
+#controls > .columns > .column > .button {
+    border-color: #333e5b;
+    height: 4rem;
+    margin: 10px;
+}
+
+#btnUnlWood, #btnBuyWood {
+    color: #fff;
+    background-color: rgb(119, 101, 21);
+}
+
+#btnUnlCoal, #btnBuyCoal {
+    color: #fff;
+    background-color: rgb(75, 75, 75);
+}
+
+#btnUnlWind, #btnBuyWind {
+    background-color: rgb(207, 224, 231);
+}
+
+#btnUnlSolar, #btnBuySolar {
+    color: #fff;
+    background-color: rgb(28, 59, 146);
+}
+
+#btnUnlNuclear, #btnBuyNuclear {
+    background-color: rgb(239, 255, 14);
+}
+
+#btnUnlDyson, #btnBuyDyson {
+    background-color: rgb(33, 226, 217);
+}
+
+#controls > .columns > .column > .button:hover {
+    color: #fff;
+    background-color: #8997bd;
+    border-color: #333e5b;
+}
